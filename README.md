@@ -5,7 +5,7 @@
 ### پیش نیاز های پایتون : 
 
 #### pip install termcolor 
-#### pip internal requests 
+#### pip install requests 
 
 ### نحوه ی اجرا : 
 #### 1- اسکریپت را دانلود کنید 
