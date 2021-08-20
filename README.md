@@ -9,7 +9,8 @@
 
 ### نحوه ی اجرا : 
 #### 1- اسکریپت را دانلود کنید 
-#### 2- python LinkNimbahakon.py
+#### 2- (Linux) python3 LinkNimbahakon.py
+#### 2- (Windows) python LinkNimbahakon.py
 #### 3- تمام! لینک فایل خود را به ربات بدهید تا تبدیل به لینک نمی بها شود
 
 
