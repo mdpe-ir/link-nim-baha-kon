@@ -45,8 +45,8 @@ sudo pip3 install requests
 <div dir="ltr">
 
 ```
-sudo pip3 install termcolor
-sudo pip3 install requests
+pip install termcolor
+pip install requests
 ```
 </div>
  
