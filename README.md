@@ -23,6 +23,7 @@
 
 برای اجرای این اسکریپت نیاز به چند کتابخانه پایتونی است که میتوانید با استفاده از دستورات زیر آنها را نصب کنید :
 
+##### نصب پیش نیاز ها در لینوکس  
 <div dir="ltr">
 
 ```
@@ -30,7 +31,25 @@ pip3 install termcolor
 pip3 install requests
 ```
 </div>
+ 
+##### نصب پیش نیاز ها در توزیعات آرچ بیس  
+<div dir="ltr">
 
+```
+sudo pip3 install termcolor
+sudo pip3 install requests
+```
+</div>
+
+##### نصب پیش نیاز ها در ویندوز  
+<div dir="ltr">
+
+```
+sudo pip3 install termcolor
+sudo pip3 install requests
+```
+</div>
+ 
 ### اجرا ♨️
 
 1. کلون کردن ریپو
