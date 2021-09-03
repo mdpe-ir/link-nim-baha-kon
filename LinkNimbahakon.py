@@ -1,3 +1,4 @@
+#!/usr/bin/python
 #Import Modules
 import requests
 import json
@@ -45,7 +46,7 @@ class NimbahaLinkGenerator  :
         #DetectSearchPrase
         self.displayProcessingText()
         detect_search_prase_url = 'https://www.digitalbam.ir/Home/DetectSearchPrase'
-        form = {'Phrase': f'{self.url_input}'}
+        form = {'Phrase': self.url_input}
         result = requests.post(detect_search_prase_url, data = form)
         if result.text == "downloadLink" :
             return True
@@ -55,7 +56,7 @@ class NimbahaLinkGenerator  :
     def generatingLink (self) :
         generate_download_url = 'https://www.digitalbam.ir/DirectLinkDownloader/Download'
 
-        form = {'downloadUri': f'{self.url_input}'}
+        form = {'downloadUri': self.url_input}
 
         result = requests.post(generate_download_url, data = form)
 

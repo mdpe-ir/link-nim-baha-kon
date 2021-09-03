@@ -67,6 +67,16 @@ python LinkNimbahakon.py
 ```
 </div>
 
+<div dir="ltr">
+برای راحت تر استفاده کردن از این برنامه در سیستم های لینوکس میتونید از دستورات زیر استفاده کنید:
+</div>
+``` bash
+sudo chmod +x LinkNimbahakon.py 
+sudo cp -T  LinkNimbahakon.py  /usr/bin/LinkNimbahakon
+# Then run program with:
+LinkNimbahakon
+```
+
 ## لیست انجام کار ✔  
 - [ ] ساخت نرم افزار گرافیکی با pyqt5 
 
