@@ -88,5 +88,3 @@ class NimbahaLinkGenerator  :
 if __name__ == "__main__" :
     link_generator = NimbahaLinkGenerator()
     link_generator.start()
-
-
