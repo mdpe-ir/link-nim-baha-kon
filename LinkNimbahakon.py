@@ -48,6 +48,7 @@ class NimbahaLinkGenerator  :
         detect_search_prase_url = 'https://www.digitalbam.ir/Home/DetectSearchPrase'
         form = {'Phrase': self.url_input}
         result = requests.post(detect_search_prase_url, data = form)
+        print(type(result))
         if result.text == "downloadLink" :
             return True
         else:
@@ -88,5 +89,3 @@ class NimbahaLinkGenerator  :
 if __name__ == "__main__" :
     link_generator = NimbahaLinkGenerator()
     link_generator.start()
-
-
