@@ -93,6 +93,6 @@ LinkNimbahakon
 
 
 
-توسعه داده شده با ❤️ توسط  [ماهان](https://github.com/mdpe-ir) و [مشارکت کنندگان](https://github.com/mdpe-ir/link-nim-baha-kon/graphs/contributors). 1400 ©
+توسعه داده شده با ❤️ توسط  [Mdpe](https://github.com/mdpe-ir) و [مشارکت کنندگان](https://github.com/mdpe-ir/link-nim-baha-kon/graphs/contributors). 1400 ©
 
 💪 قدرت گرفته از [دیجیتال‌بام](https://www.digitalbam.ir)
