@@ -80,7 +80,9 @@ LinkNimbahakon
 </div>
 
 ## لیست انجام کار ✔  
-- [ ] ساخت نرم افزار گرافیکی با pyqt5 
+- [ ] Create gui app 
+- [ ] Add bulk links (bulk links #7)[https://github.com/mdpe-ir/link-nim-baha-kon/issues/7]
+
 
 ## مشارکت 🤝
 
