@@ -79,10 +79,13 @@ LinkNimbahakon
 ```
 </div>
 
+
+## لیست انجام کار ✔
+ 
  <div dir="ltr">
-## لیست انجام کار ✔  
+  
 - [ ] Create gui app 
-- [ ] Add bulk links (https://github.com/mdpe-ir/link-nim-baha-kon/issues/7)[bulk links #7]
+- [ ] Add bulk links https://github.com/mdpe-ir/link-nim-baha-kon/issues/7
 
 </div>
 ## مشارکت 🤝
