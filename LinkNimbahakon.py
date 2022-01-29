@@ -102,13 +102,13 @@ class NimbahaLinkGenerator:
         # print(colored("Message >", "cyan"), message)
 
     def ask_for_create_file(self):
-        input_response = input("Do you want to create a file with links? (y/n) > ")
+        input_response = input("Aya mikhahid tamam link haye toolid shode dar yek file .txt zakhire shavand? (y/n) > ")
         if input_response == "y" or input_response == "Y":
             self.create_result_file = True
 
         if self.create_result_file:
             self.goto_next_line()
-            print(colored("The file is saved on your desktop", "cyan"))
+            print(colored("File toolid shode dar desktop shoma zakhire khahad shod.", "cyan"))
             self.goto_next_line()
 
     def valid_input(self):
