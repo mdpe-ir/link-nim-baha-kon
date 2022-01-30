@@ -9,23 +9,23 @@
 
 ## فهرست
 
-- [نسخه ی PWA ]()
+- [نسخه ی PWA ](https://github.com/mdpe-ir/link-nim-baha-kon#%D9%86%D8%B3%D8%AE%D9%87-%DB%8C-pwa)
   
-- [نسخه ی وب ]()
+- [نسخه ی وب (توصیه شده) ](https://github.com/mdpe-ir/link-nim-baha-kon#%D9%86%D8%B3%D8%AE%D9%87-%DB%8C-%D9%88%D8%A8)
   
-- [اسکریپت]()
+- [اسکریپت](https://github.com/mdpe-ir/link-nim-baha-kon#%D9%86%D8%B5%D8%A8-%D9%88-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C-%D8%A7%D8%B3%DA%A9%D8%B1%DB%8C%D9%BE%D8%AA-)
    
- - [راهنما]()
+ - [راهنما](https://github.com/mdpe-ir/link-nim-baha-kon#%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7)
    
-- [لیست انجام کار]()
+- [لیست انجام کار](https://github.com/mdpe-ir/link-nim-baha-kon#%D9%84%DB%8C%D8%B3%D8%AA-%D8%A7%D9%86%D8%AC%D8%A7%D9%85-%DA%A9%D8%A7%D8%B1-)
 
- - [مشارکت]()
+ - [مشارکت](https://github.com/mdpe-ir/link-nim-baha-kon#%D9%85%D8%B4%D8%A7%D8%B1%DA%A9%D8%AA-)
 
-- [حمایت]()
+- [حمایت](https://github.com/mdpe-ir/link-nim-baha-kon#%D8%AD%D9%85%D8%A7%DB%8C%D8%AA)
 
    
 ## نسخه ی PWA
-## نسخه ی وب
+## نسخه ی وب (توصیه شده)
 
 ## نصب و اجرای اسکریپت 🧰🛠
 
