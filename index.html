@@ -20,55 +20,103 @@
     <link rel="stylesheet" type="text/css" href="css/util.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <!--===============================================================================================-->
-	<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet"
+          type="text/css"/>
     <!--===============================================================================================-->
 </head>
 <body>
 
 <div dir="rtl" class="contact1">
     <div class="container-contact1">
-<!--        <div class="contact1-pic js-tilt" data-tilt>-->
-<!--            <img src="images/download.png" alt="IMG">-->
-<!--        </div>-->
+        <!--        <div class="contact1-pic js-tilt" data-tilt>-->
+        <!--            <img src="images/download.png" alt="IMG">-->
+        <!--        </div>-->
 
         <form style="width: 100%!important;" class="contact1-form validate-form">
 				<span class="contact1-form-title">
-                      تولید کننده ی لینک نیم بها   <span><a style="font-size: xx-large" href="https://github.com/mdpe-ir/link-nim-baha-kon/"><i class="fa fa-github"></i></a></span>
+                      تولید کننده ی لینک نیم بها   <span><a style="font-size: xx-large"
+                                                            href="https://github.com/mdpe-ir/link-nim-baha-kon/"><i
+                        class="fa fa-github"></i></a></span>
 				</span>
 
-           <p>
-               <span style="color: green;">راهنما : </span>
-               با وارد کردن  لینک (ها)  در کادر زیر آن ها را تبدیل به لینک نیم بها کنید
+            <p>
+                <span style="color: green;">راهنما : </span>
+                با وارد کردن لینک (ها) در کادر زیر آن ها را تبدیل به لینک نیم بها کنید
+            </p>
+            <br>
 
-           </p>
+            <p>*در هر خط یک لینک وارد کنید</p>
 
             <br>
 
 
+            <div class="flex-column">
 
 
-            <div class="wrap-input1 validate-input" data-validate="وارد کردن حداقل یک لینک اجباری است">
+                <div class="col">
+                    <div class="wrap-input1 validate-input" data-validate="وارد کردن حداقل یک لینک اجباری است">
 
-                <textarea class="input1" name="message" placeholder="در هر خط یک لینک بنویسید...."></textarea>
-                <span class="shadow-input1"></span>
+                        <textarea dir="ltr" class="input1" name="links" placeholder="example1.com...
+example2.com... "></textarea>
+                        <span class="shadow-input1"></span>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="wrap-input1 validate-input">
+                        <textarea id="outputs" name="outputs" dir="ltr" class="input1" readonly>خروجی لینک های نیم بها شده</textarea>
+                        <span class="shadow-input1"></span>
+
+
+                    </div>
+
+                </div>
+
 
             </div>
-
-
 
 
             <br>
 
             <div class="container-contact1-form-btn">
-                <button  class="contact1-form-btn">
+                <button class="contact1-form-btn">
 						<span>
-							تولید لینک نیم بها
-							<i class="fa fa-link" aria-hidden="true"></i>
+							<span id="unloaidng">تولید لینک نیم بها</span>
+							<span hidden id="loading">آماده سازی...</span>
+							<i id="unloadingIcon" class="fa fa-link" aria-hidden="true"></i>
+							<i id="loadingIcon" hidden class="fa fa-spinner fa-spin" aria-hidden="true"></i>
+
 						</span>
                 </button>
             </div>
         </form>
+
+
+
+        <div class="container">
+            <div class="row m-5 text-center">
+                <div class="col-sm">
+                    <p>ساخته شده با <i class="fa fa-heart" style="color: tomato"></i> در سال 2022</p>
+                </div>
+                <div class="col-sm">
+                    <span> قدرت گرفته از <a href="https://www.digitalbam.ir/" target="_blank">digitalbam</a></span>
+                </div>
+                <div class="col-sm">
+                    <a href="http://www.coffeete.ir/mdpe-ir">
+                        <img src="http://www.coffeete.ir/images/buttons/lemonchiffon.png" style="width:180px;" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
     </div>
+    <!--   made with love message and github link  -->
+
+    <div id="snackbar">تمام لینک ها با موفقیت نیم بها شدند</div>
 </div>
 
 
