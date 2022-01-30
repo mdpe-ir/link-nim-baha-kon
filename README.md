@@ -11,7 +11,7 @@
 
 - [نسخه ی PWA ](https://github.com/mdpe-ir/link-nim-baha-kon#%D9%86%D8%B3%D8%AE%D9%87-%DB%8C-pwa)
   
-- [نسخه ی وب (توصیه شده) ](https://github.com/mdpe-ir/link-nim-baha-kon#%D9%86%D8%B3%D8%AE%D9%87-%DB%8C-%D9%88%D8%A8)
+- [نسخه ی وب (توصیه شده) ](https://github.com/mdpe-ir/link-nim-baha-kon#%D9%86%D8%B3%D8%AE%D9%87-%DB%8C-%D9%88%D8%A8-%D8%AA%D9%88%D8%B5%DB%8C%D9%87-%D8%B4%D8%AF%D9%87)
   
 - [اسکریپت](https://github.com/mdpe-ir/link-nim-baha-kon#%D9%86%D8%B5%D8%A8-%D9%88-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C-%D8%A7%D8%B3%DA%A9%D8%B1%DB%8C%D9%BE%D8%AA-)
    
