@@ -5,135 +5,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
-    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="vendor/godui/GodUi.min.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="css/util.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
     <!--===============================================================================================-->
     <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet"
           type="text/css"/>
     <!--===============================================================================================-->
 </head>
-<body>
+<body theme="center-box" dir="auto">
+<shaft>
 
-<div dir="rtl" class="contact1">
-    <div class="container-contact1">
-        <!--        <div class="contact1-pic js-tilt" data-tilt>-->
-        <!--            <img src="images/download.png" alt="IMG">-->
-        <!--        </div>-->
-
-        <form style="width: 100%!important;" class="contact1-form validate-form">
-				<span class="contact1-form-title">
-                      تولید کننده ی لینک نیم بها   <span><a style="font-size: xx-large"
-                                                            href="https://github.com/mdpe-ir/link-nim-baha-kon/"><i
-                        class="fa fa-github"></i></a></span>
-				</span>
-
-            <p>
-                <span style="color: green;">راهنما : </span>
-                با وارد کردن لینک (ها) در کادر زیر آن ها را تبدیل به لینک نیم بها کنید
-            </p>
-            <br>
-
-            <p>*در هر خط یک لینک وارد کنید</p>
-
-            <br>
-
-
-            <div class="flex-column">
-
-
-                <div class="col">
-                    <div class="wrap-input1 validate-input" data-validate="وارد کردن حداقل یک لینک اجباری است">
-
-                        <textarea dir="ltr" class="input1" name="links" placeholder="example1.com...
-example2.com... "></textarea>
-                        <span class="shadow-input1"></span>
-
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="wrap-input1 validate-input">
-                        <textarea id="outputs" name="outputs" dir="ltr" class="input1" readonly>خروجی لینک های نیم بها شده</textarea>
-                        <span class="shadow-input1"></span>
-
-
-                    </div>
-
-                </div>
-
-
-            </div>
-
-
-            <br>
-
-            <div class="container-contact1-form-btn">
-                <button class="contact1-form-btn">
-						<span>
-							<span id="unloaidng">تولید لینک نیم بها</span>
-							<span hidden id="loading">آماده سازی...</span>
-							<i id="unloadingIcon" class="fa fa-link" aria-hidden="true"></i>
-							<i id="loadingIcon" hidden class="fa fa-spinner fa-spin" aria-hidden="true"></i>
-
-						</span>
-                </button>
-            </div>
-        </form>
-
-
-
-        <div class="container">
-            <div class="row m-5 text-center">
-                <div class="col-sm">
-                    <p>ساخته شده با <i class="fa fa-heart" style="color: tomato"></i> در سال 2022</p>
-                </div>
-                <div class="col-sm">
-                    <span> قدرت گرفته از <a href="https://www.digitalbam.ir/" target="_blank">digitalbam</a></span>
-                </div>
-                <div class="col-sm">
-                    <a href="http://www.coffeete.ir/mdpe-ir">
-                        <img src="http://www.coffeete.ir/images/buttons/lemonchiffon.png" style="width:180px;" />
-                    </a>
-                </div>
-            </div>
-        </div>
-
-
-
-
-
+<form d-flex flex-dir-column align-items-center class="all validate-form">
+    <header>
+        <h6>تولید کننده لینک نیم بها <a style="font-size: xx-large" href="https://github.com/mdpe-ir/link-nim-baha-kon/"><i class="fa fa-github"></i></a></span></h6>
+    </header>
+    <br>
+    <div>
+        <p riz><span style="color: green;">راهنما : </span> با وارد کردن لینک (ها) در کادر زیر آن ها را تبدیل به لینک نیم بها کنید</p>
+        <p riz>*در هر خط یک لینک وارد کنید</p>
+        <br>
+        <p riz>وارد کردن حداقل یک لینک اجباری است</p>
     </div>
-    <!--   made with love message and github link  -->
+    <br>
+    <div class="validate-input">
+    <textarea dir="ltr" class="input1" name="links" placeholder="example1.com...
+example2.com... " style="margin-bottom: 1rem;"></textarea>
+    </div>
+    <div class="validate-input">
+    <textarea id="outputs" name="outputs" dir="ltr" class="input1" readonly>خروجی لینک های نیم بها شده</textarea>
+    </div>
+    <br>
+    <button theme="outline" style="--color:var(--primary-color)">
+            <span>
+                <span id="unloaidng">تولید لینک نیم بها</span>
+                <span hide id="loading">آماده سازی...</span>
+                <i id="unloadingIcon" class="fa fa-link" aria-hidden="true"></i>
+                <i id="loadingIcon" hide class="fa fa-spinner fa-spin" aria-hidden="true"></i>
+            </span>
+    </button>
+</form>
 
-    <div id="snackbar">تمام لینک ها با موفقیت نیم بها شدند</div>
-</div>
+<line>
+    <div>
+        <p>ساخته شده با <i class="fa fa-heart" style="color: tomato"></i> در سال ۱۴۰۰</p>
+    </div>
+    <div>
+        <span> قدرت گرفته از<a href="https://www.digitalbam.ir/" target="_blank">دیجیتال بام</a></span>
+    </div>
+    <div>
+        <a href="http://www.coffeete.ir/mdpe-ir">
+            <img src="http://www.coffeete.ir/images/buttons/lemonchiffon.png" style="width:180px;" />
+        </a>
+    </div>
+</line>
 
+<div id="snackbar">تمام لینک ها با موفقیت نیم بها شدند</div>
 
 <!--===============================================================================================-->
 <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-<script src="vendor/bootstrap/js/popper.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-<script src="vendor/tilt/tilt.jquery.min.js"></script>
-<script>
-    $('.js-tilt').tilt({
-        scale: 1.1
-    })
-</script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
@@ -152,5 +84,6 @@ example2.com... "></textarea>
 <!--===============================================================================================-->
 <script src="js/main.js"></script>
 
+</shaft>
 </body>
 </html>

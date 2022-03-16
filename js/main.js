@@ -27,19 +27,19 @@
                 const value = $(links).val();
                 let linkList = value.split(/\r?\n/);
                 document.getElementById('outputs').value = "";
-                document.getElementById("loading").removeAttribute("hidden");
-                document.getElementById("unloaidng").setAttribute("hidden", "hidden");
-                document.getElementById("loadingIcon").removeAttribute("hidden");
-                document.getElementById("unloadingIcon").setAttribute("hidden", "hidden");
+                document.getElementById("loading").removeAttribute("hide");
+                document.getElementById("unloaidng").setAttribute("hide", "hide");
+                document.getElementById("loadingIcon").removeAttribute("hide");
+                document.getElementById("unloadingIcon").setAttribute("hide", "hide");
                 loading = true;
 
 
                 linksGenerator(linkList).then(r => {
                     loading = false;
-                    document.getElementById("unloaidng").removeAttribute("hidden");
-                    document.getElementById("loading").setAttribute("hidden", "hidden");
-                    document.getElementById("unloadingIcon").removeAttribute("hidden");
-                    document.getElementById("loadingIcon").setAttribute("hidden", "hidden");
+                    document.getElementById("unloaidng").removeAttribute("hide");
+                    document.getElementById("loading").setAttribute("hide", "hide");
+                    document.getElementById("unloadingIcon").removeAttribute("hide");
+                    document.getElementById("loadingIcon").setAttribute("hide", "hide");
                     var x = document.getElementById("snackbar");
                     x.className = "show";
                     setTimeout(function () {
