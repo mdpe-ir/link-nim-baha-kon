@@ -78,6 +78,7 @@ https://nimbahakon.pages.dev
 ```
 pip3 install termcolor
 pip3 install requests
+pip3 install wget
 ```
 
 </div>
@@ -89,6 +90,7 @@ pip3 install requests
 ```
 sudo pip3 install termcolor
 sudo pip3 install requests
+pip3 install wget
 ```
 
 </div>
@@ -100,6 +102,7 @@ sudo pip3 install requests
 ```
 pip install termcolor
 pip install requests
+pip install wget
 ```
 
 </div>
