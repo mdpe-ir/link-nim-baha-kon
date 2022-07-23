@@ -145,6 +145,7 @@ LinkNimbahakon
 
 - [x] Create gui app
 - [x] add bulk links https://github.com/mdpe-ir/link-nim-baha-kon/issues/7
+- [ ] migrate from digitalbom to linknim.ir https://github.com/mdpe-ir/link-nim-baha-kon/issues/10
 
 </div>
 
