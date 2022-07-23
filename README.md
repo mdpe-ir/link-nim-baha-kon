@@ -90,7 +90,7 @@ pip3 install wget
 ```
 sudo pip3 install termcolor
 sudo pip3 install requests
-pip3 install wget
+sudo pip3 install wget
 ```
 
 </div>
